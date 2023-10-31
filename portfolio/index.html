@@ -152,7 +152,7 @@
                     <p class="project-description"> I've created a Simon Says game – a classic memory and
                         pattern-recognition game. Players need to follow a sequence of colors and sounds, attempting to
                         match the ever-growing pattern as the game progresses more and more. </p>
-                    <button class="button">Explore More</button>
+                    <button class="btn">Explore More</button>
                 </div>
                 <div id="todo-online" class="project-box">
                     <img src="images/todo-image.png" alt="To Do Web App" id="todo-img" class="projects-imgs">
@@ -160,7 +160,7 @@
                     <p class="project-description"> I've developed an online ToDo web app that helps users efficiently
                         manage their tasks and stay organized. With user-friendly features for adding, editing, and
                         prioritizing tasks, it simplifies the task management process. </p>
-                    <button class="button">Explore More</button>
+                    <button class="btn">Explore More</button>
                 </div>
                 <div id="opensource-projects" class="project-box">
                     <img src="images/open-source-image.png" alt="Open Source" id="opensource-img" class="projects-imgs">
@@ -169,7 +169,7 @@
                         a
                         global community of developers to improve and enhance software that's freely available to the
                         public. This involvement showcases my commitment.</p>
-                    <a href="http://github/thezeeshanhassan"><button class="button">Explore More</button></a>
+                    <a href="http://github/thezeeshanhassan"><button class="btn">Explore More</button></a>
                 </div>
             </div>
         </div>
@@ -178,13 +178,49 @@
 
     <!-- Resume Start -->
     <section id="resume-section">
-        <h1><span class="allGreen">MY </span> RESUME </h1>
+        <div class="position-relative d-flex align-items-center justify-content-center heading-div">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">RESUME</h1>
+            <h1 class="position-absolute text-uppercase text-primary"><span class="allGreen">RE</span>SUME</h1>
+        </div>
         <div id="resume-div">
             <h2>Click Button To Download Resume</h2>
             <button class="resume-button">Download Resume</button>
         </div>
     </section>
     <!-- Resume End -->
+
+    <!-- Contact ME Start-->
+    <section id="form-section">
+
+        <div class="position-relative d-flex align-items-center justify-content-center heading-div">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">CONTACT</h1>
+            <h1 class="position-absolute text-uppercase text-primary"><span class="allGreen">CONTACT</span> ME</h1>
+        </div>
+        <div class="contact-div">
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" id="form-name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="subject"></label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" required placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn" id="form-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Me End -->
 </body>
 
 </html>

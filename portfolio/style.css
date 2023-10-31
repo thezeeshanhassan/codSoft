@@ -84,16 +84,23 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#div-button {
-    padding-top: 1.5rem;
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0.2rem 0.2rem 1rem #28a745;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
 }
 
-.button {
-    padding: 0.8rem 1.5rem;
-    background-color: #28a745;
-    color: white;
-    border-radius: 10rem;
-    border: none;
+.btn:active {
+    transform: scale(0.90);
+    box-shadow: 0.2rem 0.2rem 1rem #28a745;
 }
 
 
@@ -409,7 +416,7 @@ img {
     align-items: center;
     flex-direction: column;
     padding-bottom: 2rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.2rem 0.2rem 1rem #28a745;
     margin-left: 1rem;
 }
 
@@ -419,10 +426,9 @@ img {
 }
 
 .project-box:hover {
-    background-color: rgb(228, 232, 232);
-    transition-duration: 1.5s;
+    /* background-color: #eff4f0;
+    transition-duration: 0.5s; */
     border-radius: 1rem;
-    box-shadow: #28a745;
 }
 
 .project-name {
@@ -443,8 +449,8 @@ img {
     align-items: center;
     justify-content: center;
     color: white;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     background-color: #28a745;
 }
 
@@ -455,16 +461,73 @@ img {
 }
 
 .resume-button {
-    border: white;
-    padding: 0.9rem;
-    border-radius: 5rem;
-    cursor: pointer;
+
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: #f3f6f4;
     color: #28a745;
-    font-size: 0.9rem;
+    border-radius: 5px;
+    box-shadow: 0.2rem 0.2rem 1rem #fefefe;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
 }
 
 .resume-button:hover {
-    color: black;
+    transform: scale(0.90);
+    box-shadow: 0.2rem 0.2rem 1rem #28a745;
 }
 
 /* Resume Section End */
+
+
+/* Contact Form Start */
+
+#form-section {
+    display: block;
+    text-align: center;
+}
+
+#form-name,
+#email,
+#subject {
+    margin-top: 2rem;
+    width: 40%;
+    border-radius: 0.7rem;
+    height: 2rem;
+    box-shadow: 5px 5px 5px rgba(5, 174, 22, 0.557);
+    border: none;
+}
+
+/* #form-name,
+#email,
+#subject:hover {
+    color: #28a745;
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(5, 174, 22, 0.557);
+} */
+
+#message {
+    border-radius: 0.7rem;
+    width: 40%;
+    margin-top: 2rem;
+    height: 7rem;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(5, 174, 22, 0.557);
+}
+
+#message:hover {
+    color: #28a745;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(5, 174, 22, 0.557);
+}
+
+#form-button {
+    margin-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* Contact Form End */
