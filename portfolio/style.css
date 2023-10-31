@@ -99,6 +99,10 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h3 {
+    text-align: left;
+}
+
 .allGreen {
     color: #28a745;
 }
@@ -160,7 +164,7 @@ a.text-primary:focus {
 }
 
 .section-detail-div {
-    padding-top: -5rem;
+    padding-top: -3rem;
 }
 
 
@@ -379,3 +383,54 @@ img {
 }
 
 /* Skill Section End */
+
+
+/* Projects Start */
+#projects-setion {
+    display: block;
+    text-align: center;
+}
+
+#projects-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#simon-says-game,
+#todo-online,
+#opensource-projects {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 1rem;
+}
+
+.projects-imgs {
+    width: 10rem;
+    padding: 4rem;
+}
+
+#simon-says-game:hover,
+#todo-online:hover,
+#opensource-projects:hover {
+    background-color: rgb(228, 232, 232);
+    transition-duration: 1.5s;
+    border-radius: 1rem;
+}
+
+.project-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.project-description {
+    padding: 4rem;
+}
+
+/* Projects End */
