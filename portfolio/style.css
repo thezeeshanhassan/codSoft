@@ -460,6 +460,10 @@ img {
     text-align: center;
 }
 
+#resume-detail-div {
+    margin-top: -3rem;
+}
+
 .resume-button {
 
     text-decoration: none;
@@ -530,4 +534,57 @@ img {
     padding-right: 5rem;
 }
 
+.contact-div {
+    margin-top: -3rem;
+}
+
 /* Contact Form End */
+
+
+/* Footer Start */
+#footr-div {
+    margin-top: 5rem;
+    height: 20rem;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-para1 {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+#footer-para2 {
+    color: white;
+    font-size: 1rem;
+}
+
+#footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    width: 2.5rem;
+    padding-right: 1.5rem;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 2rem;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* Footer End */
