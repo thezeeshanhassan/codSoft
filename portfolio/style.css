@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+:root {
+    --success: #28a745;
+}
+
 nav {
     width: 100%;
     height: 5rem;
@@ -398,9 +402,7 @@ img {
     width: 100%;
 }
 
-#simon-says-game,
-#todo-online,
-#opensource-projects {
+.project-box {
     width: 30%;
     display: flex;
     justify-content: center;
@@ -416,12 +418,11 @@ img {
     padding: 4rem;
 }
 
-#simon-says-game:hover,
-#todo-online:hover,
-#opensource-projects:hover {
+.project-box:hover {
     background-color: rgb(228, 232, 232);
     transition-duration: 1.5s;
     border-radius: 1rem;
+    box-shadow: #28a745;
 }
 
 .project-name {
@@ -434,3 +435,36 @@ img {
 }
 
 /* Projects End */
+
+/* Resume Section Start */
+#resume-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: #28a745;
+}
+
+#resume-section {
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+}
+
+.resume-button {
+    border: white;
+    padding: 0.9rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: #28a745;
+    font-size: 0.9rem;
+}
+
+.resume-button:hover {
+    color: black;
+}
+
+/* Resume Section End */
