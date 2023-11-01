@@ -100,7 +100,7 @@ p {
 
 .btn:active {
     transform: scale(0.90);
-    box-shadow: 0.2rem 0.2rem 1rem #28a745;
+    box-shadow: 0.2rem 0.2rem 0.2rem #28a745;
 }
 
 
@@ -536,6 +536,10 @@ img {
 
 .contact-div {
     margin-top: -3rem;
+}
+
+.form-input:active {
+    outline: none;
 }
 
 /* Contact Form End */
