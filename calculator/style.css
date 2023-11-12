@@ -1,3 +1,4 @@
+/* Styling for the entire page */
 body {
     width: 500px;
     margin: 4% auto;
@@ -9,6 +10,7 @@ body {
     -ms-user-select: none;
 }
 
+/* Styling for the calculator container */
 .calculator {
     padding: 20px;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -16,6 +18,7 @@ body {
     border-radius: 1px;
 }
 
+/* Styling for the input display area */
 .input {
     border: 1px solid #ddd;
     border-radius: 1px;
@@ -35,10 +38,7 @@ body {
     box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* .buttons {}
-
-.operators {} */
-
+/* Styling for operator buttons */
 .operators div {
     display: inline-block;
     border: 1px solid #bbb;
@@ -63,10 +63,7 @@ body {
     font-weight: bold;
 }
 
-.leftPanel {
-    display: inline-block;
-}
-
+/* Styling for number buttons */
 .numbers div {
     display: inline-block;
     border: 1px solid #ddd;
@@ -91,6 +88,7 @@ body {
     font-weight: bold;
 }
 
+/* Styling for the equal button */
 div.equal {
     display: inline-block;
     border: 1px solid #3079ED;
